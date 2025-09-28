@@ -1,16 +1,10 @@
-# from portswigger_solutions.config import *
+from scripts.config import BURP_PROXIES
 import requests
 import argparse
 import urllib
 import urllib3
 import copy
 
-BURP_PROXY_IP = "127.0.0.1"
-BURP_PROXY_PORT = "8080"
-BURP_PROXIES = {
-    "http": f"http://{BURP_PROXY_IP}:{BURP_PROXY_PORT}",
-    "https": f"http://{BURP_PROXY_IP}:{BURP_PROXY_PORT}",
-}
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 

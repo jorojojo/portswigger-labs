@@ -1,0 +1,1 @@
+Script write-ups for some of the Port Swigger web security labs. This repo follows the python package structure so to run any lab, do so from the root project directory. Some solutions are hardcoded with session specifc values, so some values will need to be updated each time you run a script.
